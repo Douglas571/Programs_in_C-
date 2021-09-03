@@ -1,0 +1,5 @@
+build/
+
+*.exe
+code/*.exe
+code/**/*.exe
