@@ -1,8 +1,5 @@
-//A pointer example, a kind of linked list
-//but with stormtrooper
 
 #include <cstdio>
-//#include <string.h>
 
 struct List {
   Element* next{};

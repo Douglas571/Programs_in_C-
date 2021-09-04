@@ -27,7 +27,7 @@ struct Stack {
 		//change position, new_el is the new top_element
 		top_el = new_el;
 
-		//for printing purpouse, return the value of top_el
+		//for printing purpose, return the value of top_el
 		return top_el->value;
 	}
 
