@@ -1,5 +1,7 @@
 build/
 
+dudas.txt
+
 *.exe
 code/*.exe
 code/**/*.exe
