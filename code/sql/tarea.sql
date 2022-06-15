@@ -1,3 +1,6 @@
+CREATE DATABASE banco;
+USE banco;
+
 CREATE TABLE tipos_de_cuenta (
   id INTEGER PRIMARY KEY NOT NULL AUTO_INCREMENT,
   tipo VARCHAR(10) NOT NULL
@@ -66,4 +69,4 @@ CREATE TABLE cuentas (
     ON UPDATE RESTRICT
 );
 
-INSERT INTO cuentas (clientes_id) VALUES (3);
+INSERT INTO cuentas (clientes_id) VALUES (2);
